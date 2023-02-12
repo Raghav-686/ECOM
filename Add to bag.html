@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head id="head-content">
+        <script src="head.js"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    </head>
+<body onload="cart()">
+    <header id="header-content">
+        <script src="header.js"></script>
+    </header>
+    <div class="add-to-bag-container" id="add-to-bag-container">
+       <div class="add-to-bag-left-container" id="add-to-bag-left-container">
+            <div class="cart-item" id="cart-item">
+               <div class="heading-cart">
+                    <h3>Cart ( Items)</h3>
+               </div>
+               
+               <div class="data-cart" id="data-cart">
+                    <div class="data-cart-img">
+                        <img src="./microsoftimg/microsoft1.png" alt="">
+                    </div>
+                    <div class="data-cart-title">
+                        <h4>Microsoft Azure az-104</h4>
+                    </div>
+                    <div class="data-cart-price">
+                        <h4>$199</h4>
+                    </div>
+               </div> 
+               <div class="cart-warning">
+                    <h5><i class="fas fa-exclamation-circle"></i> Do not delay the purchase adding items to your cart does not mean booking them.</h5>
+               </div> 
+            </div>
+            <div class="confirm-address" id="confirm-address">
+                <div class="inside-confirm-address">
+                    <div class="confirm-address-heading">
+                        <h3>Confirm Address</h3>
+                    </div>
+                    <div id="add-address">
+                        
+                    </div>
+                    <div id="add-address-form">
+                            
+                    </div>
+                    <div class="add-address-btn">
+                        <button onclick="add_address()"><span><i class="fas fa-plus"></i></span><span> Add Address</span></button>
+                        
+                    </div>
+                    <div class="confirm-address-warning">
+                        <h5><i class="fas fa-exclamation-circle"></i> Please select the item where you would like your item to be delivered</h5>
+                    </div>
+                </div>
+            </div>    
+       </div>
+       <div class="add-to-bag-right-container" id="add-to-bag-right-container">
+            <div class="bag-total" id="bag-total">
+                
+            </div>
+            <div class="card-warning" id="card-warning">
+            <h5><i class="fas fa-exclamation-circle"></i> AMEX & HDFC Diners card will be avaliable for transactions soon.soory for any inconvenience caused.</h5>
+            </div>
+       </div>
+    </div>
+    
+    <footer id="footer-content">
+        <script src="footer.js"></script>
+        <script src="script.js"></script>
+    </footer>
+</body>
+</html>
