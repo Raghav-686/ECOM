@@ -186,4 +186,48 @@
         font-size: 28px;
         font-weight: bold;
     }
+    #add-to-bag-container
+    {
+        width: 85%;
+        margin-top: 4rem;
+        min-height: 125vh;
+        margin-bottom: 0px;
+    }
+    #add-to-bag-left-container{
+        width: 100%;
+        display: block;
+    }
+    #add-to-bag-right-container{
+        width: 100%;
+        display: block;
+    }
+    .confirm-address{
+        margin-bottom: 15px;
+    }
+    .bag-total{
+        margin-top: 20px;
+        height: auto;
+        padding: 27px 15px 27px 15px;
+    }
+    .card-warning{
+        height: auto;
+        padding: 0px 5px 15px 5px;
+    }
+    .heading-cart h3{
+        padding-bottom: 1.2rem;
+    }
+    .data-cart-title{
+        text-align: center;
+    }
+    .data-cart-img{
+        padding-top: 25px;
+    }
+    .data-cart>div {
+        padding-top: 15px;
+        padding-bottom: 20px;
+    }
+    .cart-warning{
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
 }
