@@ -190,8 +190,8 @@
     {
         width: 85%;
         margin-top: 4rem;
-        min-height: 125vh;
-        margin-bottom: 0px;
+        overflow: auto;
+        margin-bottom: 2rem;
     }
     #add-to-bag-left-container{
         width: 100%;
