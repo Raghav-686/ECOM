@@ -1,4 +1,4 @@
-let footer = `<footer class="footer" id="footer">
+let footer = `
 <div class="footer-container">
     <div class="inner-conatiner">
         <div class="footer-text three">
@@ -42,7 +42,6 @@ let footer = `<footer class="footer" id="footer">
         </div>
     </div>
 </div>
-</footer>
 `;
 document.getElementById('footer-content').innerHTML = footer;
 
