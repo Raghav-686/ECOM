@@ -43,5 +43,5 @@ let footer = `
     </div>
 </div>
 `;
-document.getElementById('footer-content').innerHTML = footer;
+document.getElementById('footer').innerHTML = footer;
 
