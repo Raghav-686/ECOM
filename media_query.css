@@ -230,4 +230,55 @@
         padding-top: 15px;
         padding-bottom: 10px;
     }
+    .order-1-div{
+        display: block;
+        text-align: center;
+    }
+    .left-div
+    {
+        width: auto;
+        margin-bottom: 15px;
+    }
+    .centre-div{
+        width: auto;
+        margin-bottom: 10px;
+    }
+    .right-div
+    {
+        width: auto;
+        text-align: center;
+    }
+    .order-det{
+        width: auto;
+        text-align: center;
+    }
+    .view_pdt-det{
+        display: block;
+    }
+    .billing-det{
+        width: auto;
+    }
+    .order-det h3{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .order-date-left{
+        width: 70%;
+    }
+    .billing-det p {
+        margin: 22px 0px;
+    }
+    .order-date-right{
+        width: 30%;
+        padding-top: 48px;
+    }
+    .order-date-right span{
+        margin-top: 22px;
+    }
+    .billing-det h3{
+        margin-bottom: 21px;
+    }
+    .billing-add-right{
+        padding-top: 68px;
+    }
 }
